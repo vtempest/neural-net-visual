@@ -1,0 +1,72 @@
+
+/* readable body fonts*/
+body{
+  font-family: Verdana, Georgia, sans-serif;
+}
+/*make body narrower*/
+body.slim{
+  width: 20%;
+  margin: 0;
+}
+/*TEXT INPUT FIELD*/
+input[type=text], input[type=password] {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: .0625rem solid #ccc;
+    border-radius: .25rem;
+    outline: 0;
+    display: inline-block;
+}
+/*wrap text inputs in label*/
+label.input-label{
+  font-size: .8em;
+  display: inline-block;
+  background: #ccc;
+  padding-left: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 10px 0px;
+  display: block;
+  line-height: 38px;
+  clear: both; /*clearfix height */
+}
+label.input-label>input{
+  margin-left: 5px;
+  float: right;
+}
+/* ALIGN AND GROUPING */
+/*a links lighter*/
+a {
+  color: #0275d8;
+  text-decoration: none;
+}
+a:hover {
+  color: #014c8c;
+  text-decoration: underline;
+}
+/*v/h center absolute just this element, uses absolute so wrap in relative */
+.center {
+  position: absolute;
+  left: 1%;
+  top: 1%;
+}
+/*v/h center justify for all children of this element*/
+.center-content{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  vertical-align: middle;
+  flex-direction: column;
+}
+/*make text bigger or smaller*/
+.subtext{
+  font-size: .7em;
+}
+.title{
+  font-size: 1.2em;
+  font-weight: bolder;
+}

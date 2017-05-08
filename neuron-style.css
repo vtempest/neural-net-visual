@@ -1,0 +1,46 @@
+
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1px;
+}
+path.textpath {
+    fill: none;
+    stroke: none;
+}
+
+marker#licensing {
+  fill: green;
+}
+
+path.link.licensing {
+  stroke: green;
+}
+
+path.link.resolved {
+  stroke-dasharray: 0,2 1;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #ccc;
+  stroke-width: 0px;
+}
+
+text {
+  font: 10px sans-serif;
+  font-weight: bold;
+  pointer-events: none;
+}
+text.path_label{
+
+  font: 10px sans-serif;
+
+  font-weight: normal;
+}
+
+text.shadow {
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-opacity: .8;
+}
